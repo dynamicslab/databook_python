@@ -15,4 +15,24 @@ Python code library by Daniel Dylewsky. There are a few items that are only avai
 
 MATLAB versions of these demos are available at https://github.com/dynamicslab/databook_matlab
 
-Please cite this book when using this code/data. 
+Please cite this book when using this code/data.
+
+## Setting up a python3 environment for this repo using Anaconda
+
+[Anaconda](https://www.anaconda.com/) is a python package management framework that makes managing development environments easy.  After installing Anaconda, you can setup a development environment for following along with the Jupyter notebooks in this repository by executing:
+
+```bash
+conda env create -f {path-to-this-repo}/environment.yml
+```
+
+After the environment is created, you can enable it by executing:
+
+```bash
+conda activate databookuw
+```
+
+When you want to disable the current environment, execute:
+
+```bash
+conda deactivate
+```

@@ -1,0 +1,14 @@
+name: databookuw
+channels:
+  - conda-forge
+dependencies:
+  - python==3.9
+  - jupyter==1.0.0
+  - matplotlib==3.5.2
+  - scipy==1.9.1
+  - numpy==1.23.1
+  - scikit-image==0.19.2
+  - tensorly==0.7.0
+  - pip
+    #- pip:
+    #- TODO - add any pip installations here
