@@ -16,3 +16,13 @@ Python code library by Daniel Dylewsky. There are a few items that are only avai
 MATLAB versions of these demos are available at https://github.com/dynamicslab/databook_matlab
 
 Please cite this book when using this code/data. 
+
+# Python virtual environment setup
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install ipykernel
+python -m ipykernel install --user --name=myenv --display-name "Python (.venv)"
+```
+Now you'll be able to choose the kernel assocaited with .venv when executing code in jupyter
